@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            border: solid 3px;
+            background-color:bisque;
+            position: relative;
+        }
+        .absolute{
+            width:250px;
+            height: 200px;
+            border: solid 4px brown;
+            text-align: justify;
+            background-color: black;
+            color: aqua;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class= "container">
+        <div class="absolute">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dolore possimus culpa veritatis corrupti eligendi aspernatur tempora, temporibus, tempore, harum facilis nesciunt asperiores fuga praesentium beatae optio amet odio dolorem.
+             Nesciunt, quam perspiciatis! Eligendi officiis aliquam ex nesciunt pariatur sint vero qui.</p>
+
+        </div>
+    </div>
+    <h2>** If we keep the position absolute for the child class ,then the child class depends on the parent class container.<br> Because here we kept the parent class so the child class went bottom -right of the parent class container.<br> If we won't keep the parent class it will diectly fall on the html tags.**</h2>
+    
+</body>
+</html>
